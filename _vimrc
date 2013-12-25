@@ -18,14 +18,17 @@ set directory=/tmp,\ D:\software\tmp
 set showtabline=2
 set nowrap
 set ruler
+
 "ビープ音無効
 set visualbell
 set vb t_vb=
 "set expandtab
 "set colorcolumn=120
+
 "空白,タブの可視化設定
 "set list
 "set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
+
 "フォントの指定
 set guifont=MS_Gothic:h11
 
@@ -38,4 +41,3 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up>   gk
-
