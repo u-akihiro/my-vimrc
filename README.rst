@@ -7,6 +7,8 @@ vimの設定ファイルです。
 Installation
 ############
 
+以下のコマンドを入力してください。
+
 .. code-block:: bash
 
     $ cd ~/
