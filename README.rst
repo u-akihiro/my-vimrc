@@ -14,7 +14,7 @@ Installation
     $ cd ~/
     $ git clone https://github.com/u-akihiro/my-vimrc.git
     $ cd ~/my-vimrc
-    $ ./symlink.sh
+    $ bash symlink.sh
 
 What's NeoBundle?
 #################

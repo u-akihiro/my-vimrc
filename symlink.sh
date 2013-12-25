@@ -12,7 +12,7 @@ startEOF(){
     echo "#                            Welcome to PATH Setting                             #";
     echo "#                                                                                #";
     echo "##################################################################################";
-    echo "$YELLOW""vimの設定ファイルのパスを通します。""$COLOR_OFF";
+    echo "$YELLOW""Neobundleのインストールと設定ファイルのパスを通します。""$COLOR_OFF";
 }
 
 endEOF(){
@@ -21,6 +21,8 @@ endEOF(){
 }
 
 vim_path(){
+    mkdir -p ~/my-vimrc/.vim/bundle
+    git clone https://github.com/Shougo/neobundle.vim.git ~/my-vimrc/.vim/bundle/neobundle.vim
     ln -s ~/my-vimrc/.vimrc ~/.vimrc
     ln -s ~/my-vimrc/_vimrc ~/_vimrc
     ln -s ~/my-vimrc/.vim ~/.vim
