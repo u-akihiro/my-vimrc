@@ -16,8 +16,7 @@ startEOF(){
 }
 
 endEOF(){
-    echo "$YELLOW""設定が反映されました。シェルを再起動します。""$COLOR_OFF";
-    exec $SHELL;
+    echo "$YELLOW""設定が反映されました。""$COLOR_OFF";
 }
 
 vim_path(){
