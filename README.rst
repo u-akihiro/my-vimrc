@@ -12,8 +12,8 @@ Installation
 .. code-block:: bash
 
     $ cd ~/
-    $ git clone https://github.com/u-akihiro/my-vimrc.git
-    $ cd ~/my-vimrc
+    $ git clone https://github.com/u-akihiro/my-vimrc.git ~/.my_vimrc
+    $ cd ~/.my_vimrc
     $ bash symlink.sh
 
 What's NeoBundle?
@@ -39,6 +39,7 @@ License
 The MIT License (MIT)
 
 Copyright (c) 2013 Akihiro Uesaka
+
 Copyright (c) 2013 Tsukasa Arima
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -57,3 +58,8 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/pyar6329/my-vimrc/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free

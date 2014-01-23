@@ -1,3 +1,4 @@
 # bundleのファイルを除外する
-.vim/
-
+.vim/*
+!.vim/bundle
+!.vim/bundle/neobundle.vim
