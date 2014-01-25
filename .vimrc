@@ -83,7 +83,7 @@ NeoBundle 'Shougo/vimproc', {
 NeoBundle 'Shougo/neocomplcache'       "入力補完を提供する
 NeoBundle 'Shougo/neosnippet'          "Snippet入力サポート
 NeoBundle 'davidhalter/jedi-vim'       "Python Snippet
-
+NeoBundle 'Shougo/neosnippet-snippets' "Neosnippetの基本的なスニペット
 
 "NeoBundle 'Shougo/vimshell'           "vimでterminalを動かす
 "NeoBundle 'Shougo/unite.vim'           "ファイラ？ uniteで出力
@@ -105,3 +105,4 @@ filetype plugin indent on
 
 " インストールチェック
 NeoBundleCheck
+

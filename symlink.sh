@@ -20,11 +20,12 @@ endEOF(){
 }
 
 vim_path(){
-    mkdir -p ~/my-vimrc/.vim/bundle
-    git clone https://github.com/Shougo/neobundle.vim.git ~/my-vimrc/.vim/bundle/neobundle.vim
-    ln -s ~/my-vimrc/.vimrc ~/.vimrc
-    ln -s ~/my-vimrc/_vimrc ~/_vimrc
-    ln -s ~/my-vimrc/.vim ~/.vim
+    git pull
+    git submodule init
+    git submodule update
+    ln -s ~/.my_vimrc/.vimrc ~/.vimrc
+    ln -s ~/.my_vimrc/_vimrc ~/_vimrc
+    ln -s ~/.my_vimrc/.vim ~/.vim
 }
 
 main(){
